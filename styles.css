@@ -1,0 +1,66 @@
+* {
+    font-family:Helvetica, Arial; 
+    font-size: 15px;
+}
+
+
+#title{
+  margin: 1em auto;
+  text-align: center;
+  font-size: 25px
+}
+
+
+#email{width: 250px}
+
+#checkbox{margin: 10 px auto}
+
+.align{
+display:grid;    
+padding-top: 10px;
+margin-top:10px;
+width: 150px;  
+height: 20px;  
+padding-top: 10px;
+margin-top:0;
+padding-bottom:5px;
+
+
+}
+
+#textarea{
+height: 100px; 
+maxlenght: 100;
+border: light GREY ; 
+padding-bottom: 10px;
+margin-top:10px;
+}
+
+fieldset{
+border: 1px light GREY ;  
+width: 200px;  
+height: 20px;  
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top:10px;
+justify-content: center;
+font-size: 15px;
+}
+
+#submit{  
+border: 2px solid GREY ;  
+width: 80px;  
+height: 30px;  
+padding-top: 10px;
+margin-top:10px;
+padding-bottom:20px;
+justify-content: center;
+font-size: 15px;
+background-color: 	#8fbc8f
+} 
+
+
+
+
+
+
