@@ -1,0 +1,58 @@
+<!doctype HTML>
+<HTML lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<h1 id="title">Owning pets Survey Form </h1>
+<p id="description" >We would love to know if you have any pets at the moment.</p>
+
+<form id ="survey-form"> 
+
+
+<label id="name-label" class ="align">Enter  your full name:</label>
+
+  <input id="name" placeholder="John Smith" type ="text" class ="align" required >
+
+<label id="email-label" class ="align">Enter  your e-mail:</label>
+
+<input id="email" placeholder="firstname.lastname@gmail.com" type ="email" class ="align" required >
+
+<label id="number-label" class ="align">What is your age?</label>
+
+<input number id="number" placeholder ="18" type ="number" min ="1" max="120">
+
+<body>
+
+<label class="align">How many pets do you have at the moment?
+  <select id="dropdown" name="dropdown"  >
+    <option value="1" >I don't have any pets</option>
+    <option value="2" >I have one pet</option>
+     <option value ="3" >I have two or more pets</option>
+    <select>
+
+<fieldset id="Cat lovers">I love cats: Yes
+        <input type="radio" value="cat" name="Cat lovers">
+       No <input type="radio" value="cat 2" name="Cat lovers">
+    </fieldset>
+
+    <fieldset id="Dog lovers">I love dogs: Yes
+        <input type="radio" value="dog" name="Dog lovers">
+        No <input type="radio" value="dog 2" name="Dog lovers">
+     </fieldset>   
+
+<textarea id="textarea">Tell me something you love about pets... </textarea>
+
+ <label><input type="checkbox" id= "checkbox" value="checkbox" required value="terms"/> I accept the terms and conditions</label>
+
+ <label><input type="checkbox" 
+ value="checkbox" id="checkbox" required value="newsletter"/> I would like to receive weekly newsletters </label>
+
+
+
+<input id="submit" type="submit" value="SUBMIT" />
+<body>
