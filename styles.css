@@ -1,37 +1,45 @@
 * {
     font-family:Helvetica, Arial; 
     font-size: 15px;
+    margin-left:5px;
+    
+    background-image: url("https://user-images.githubusercontent.com/119537835/277681474-71e51688-8f29-4b1b-9cfc-f0377871f6d8.svg");
+
 }
 
 
 #title{
   margin: 1em auto;
-  text-align: center;
+  text-align: left;
+  
   font-size: 25px
+  
 }
 
 
 #email{width: 250px;
-height: 30px}
+height: 20px}
 
-#checkbox{margin: 10 px auto}
-
-.align{
-display:grid;    
-padding-top: 10px;
-margin-top:10px;
-width: 150px;  
-height: 20px;  
-padding-top: 10px;
-margin-top:0;
-padding-bottom:5px;
-
-
+#checkbox{margin: 10px auto;
 }
 
+.align{
+display:grid;   
+padding-top: 10px;
+
+margin-top:10px;
+width: 250px;  
+height: 20px;  
+padding-bottom:5px;
+}
+#name{
+height: 20px;
+}
+
+
 #textarea{
-height: 100px; 
-maxlenght: 100;
+height: 150px; 
+maxlenght: 200;
 border: light GREY ; 
 padding-bottom: 10px;
 margin-top:10px;
@@ -49,7 +57,7 @@ font-size: 15px;
 }
 
 #submit{  
-border: 2px solid GREY ;  
+border: 2px solid black ;  
 width: 80px;  
 height: 30px;  
 padding-top: 10px;
@@ -57,16 +65,16 @@ margin-top:10px;
 padding-bottom:20px;
 justify-content: center;
 font-size: 15px;
-background-color: 	#8fbc8f
 } 
 
+#dropdown{   
+width: 200px;  
+height: 30px;  
+padding-top: 0px;
+margin-top:10px;
+margin-bottom: 5px;
+padding-bottom:0px;
+justify-content: center;
+font-size: 15px;
 
-
-
-
-
-
-
-
-
-
+} 
